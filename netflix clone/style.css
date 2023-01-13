@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 735px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/eb83fa55-ab10-476a-b103-499eb7c6e022/IN-en-20230103-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+}
+.logo{
+    width: 220px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding-right: 16px;
+    padding-top: 4px;
+
+
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    color: azure;
+
+}
+.header-content h1{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h2{
+    font-size: 25px;
+
+    margin-bottom: 20px;
+    padding-top: 3%;
+}
+.header-content p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.email-signup{
+background: white;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 20px;
+
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+.email-signup button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+}
